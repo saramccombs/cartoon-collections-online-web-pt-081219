@@ -3,9 +3,7 @@
 # use each with index method 
 
 def roll_call_dwarves(names)
-  names.each_with_index do |name, i|
-    puts "#{i+1}. #{name}"
-  end
+  names.each_with_index { |name, i| puts "#{i+1}. #{name}" }
 end
 
 # method accepts an array of planeteer calls 
