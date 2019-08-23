@@ -8,8 +8,13 @@ def roll_call_dwarves(names)
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+# method accepts an array of planeteer calls 
+# method should capitalize each element and add an exclamation point at the end
+# method returns an array 
+# method should use map or collect 
+
+def summon_captain_planet(calls)
+  
 end
 
 def long_planeteer_calls# code an argument here
