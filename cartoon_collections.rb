@@ -13,8 +13,10 @@ end
 # method returns an array 
 # method should use map or collect 
 
-def summon_captain_planet(calls)
-  
+def summon_captain_planet(array_of_calls)
+  array_of_calls.collect do |call|
+  end
+  array_of_calls
 end
 
 def long_planeteer_calls# code an argument here
