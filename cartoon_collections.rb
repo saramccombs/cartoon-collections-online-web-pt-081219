@@ -3,7 +3,9 @@
 # use each with index method 
 
 def roll_call_dwarves(names)
-  names.each
+  names.each_with_index do |name, i|
+    puts "#{i}. #{name}"
+  end
 end
 
 def summon_captain_planet# code an argument here
