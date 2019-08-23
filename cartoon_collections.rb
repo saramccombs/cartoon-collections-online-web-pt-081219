@@ -25,7 +25,14 @@ def long_planeteer_calls(array_of_calls)
   array_of_calls.any? { |call| call.length > 4}
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+# method accepts an array of strings
+# method looks for an element that matches the cheeses given 
+# method returns a string value instead of printing
+# method uses include 
+
+def find_the_cheese(array_of_food_items)
+  
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
+  
 end
