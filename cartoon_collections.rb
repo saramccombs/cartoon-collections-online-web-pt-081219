@@ -26,8 +26,8 @@ end
 # method return value is either true or false 
 
 def long_planeteer_calls(array_of_calls)
-  array_of_calls.each do |call|
-    call.length > 4 ? true : false 
+  array_of_calls.any? do |call|
+    
   end
 end
 
