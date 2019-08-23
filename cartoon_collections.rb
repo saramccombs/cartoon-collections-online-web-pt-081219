@@ -28,11 +28,10 @@ end
 # method accepts an array of strings
 # method looks for an element that matches the cheeses given 
 # method returns a string value instead of printing
-# method uses include 
 
 def find_the_cheese(array_of_food_items)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  array_of_food_items.include {
+  array_of_food_items.find { |food_item| cheese_types
 end
