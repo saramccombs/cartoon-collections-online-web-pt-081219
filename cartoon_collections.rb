@@ -26,9 +26,7 @@ end
 # method return value is either true or false 
 
 def long_planeteer_calls(array_of_calls)
-  array_of_calls.any? do |call|
-    call.length > 4
-  end
+  array_of_calls.any? { |call| call.length > 4}
 end
 
 def find_the_cheese# code an argument here
