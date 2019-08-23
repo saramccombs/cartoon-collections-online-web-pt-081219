@@ -21,8 +21,14 @@ def summon_captain_planet(array_of_calls)
   new_array_of_calls
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+# method accepts an arry of calls
+# method tells us if the call is longer than four characters
+# method return value is either true or false 
+
+def long_planeteer_calls(array_of_calls)
+  array_of_calls.each do |call|
+    if call.length > 4
+  end
 end
 
 def find_the_cheese# code an argument here
